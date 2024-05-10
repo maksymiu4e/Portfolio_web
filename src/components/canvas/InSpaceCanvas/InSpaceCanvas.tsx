@@ -15,6 +15,7 @@ export default function InSpaceCanvas() {
     setIsMobile(mediaQuery.matches);
 
     // Define a callback function to handle changes to the media query
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const handleMediaQueryChange = (event: any) => {
       setIsMobile(event.matches);
     };
@@ -37,6 +38,7 @@ export default function InSpaceCanvas() {
     >
       <Suspense /* fallback={<CanvasLoader />} */>
         <OrbitControls
+          autoRotate
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 3}

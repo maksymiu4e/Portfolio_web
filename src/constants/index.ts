@@ -25,7 +25,7 @@
   threejs,
 } from "../assets"; */
 
-import { meta, shopify, starbucks, tesla } from "../assets";
+import { miratech, shopify, starbucks, tesla } from "../assets";
 
 interface NavLink {
   id: string;
@@ -114,84 +114,69 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Junior .NET developer",
+    company_name: "Miratech",
+    icon: miratech,
+    iconBg: "#fff",
+    date: "Sep 2023 - till now",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Analyze Rich client code and functionality to ensure correct and smooth transition.",
+      "Collaborate with other teams to implement maintainable and testable backend, ensuring optimal performance.",
+      "Team up with frontend developers to ensure seamless integration between frontend and backend systems.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Trainee – Junior .NET/React developer",
+    company_name: "Miratech",
+    icon: miratech,
+    iconBg: "#fff",
+    date: "Dec 2021 - Sep 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implement new features according to business requirements (backend, front-end)",
+      "Interact with DB using Entity Framework",
+      "Implementing responsive interface, landing pages according to Figma design and client requirements ",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: ".NET Intern",
+    company_name: "SoftServe IT Academy",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Aug 2021 - Dec 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Design and develop new features on back-end side",
+      "Interact with DB using Entity Framework",
+      "Write unit tests, fix bugs",
+      "Write and update technical documentation",
     ],
   },
 ];
 
 export const engineeringExperiences: Experience[] = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Mechanical design engineer",
+    company_name: "LLC BIIR Ukraine (Vestas Denmark)",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Oct 2015 - Jan 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Develop product design using 3D CAD tools",
+      "Resolve technical problems throughout the design and development processes",
+      "Create technical documentation",
+      "Interact with customers",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Mechanical design engineer",
+    company_name: "Konotop valve plant",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Create product design using 3D CAD tools",
+      "Investigate and resolve problems",
+      "Provide technical assistance",
     ],
   },
   {
@@ -200,19 +185,6 @@ export const engineeringExperiences: Experience[] = [
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

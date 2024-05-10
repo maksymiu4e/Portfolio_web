@@ -11,7 +11,7 @@ export default function ExperienceCard({experience}: ExperienceCard) {
   return (
     <VerticalTimelineElement
       contentStyle={{
-        background: "#1d1836",
+        background: "#3a37494a",
         color: "#fff",
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
@@ -22,7 +22,7 @@ export default function ExperienceCard({experience}: ExperienceCard) {
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className='w-[60%] h-[60%] object-contain'
+            className='w-[100%] h-[60%] object-contain'
           />
         </div>
       }

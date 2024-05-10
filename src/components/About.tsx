@@ -5,7 +5,7 @@ import { InSpaceCanvas } from '.';
 
 export function About() {
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className={`relative w-full h-[50vh] mx-auto`}>
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -15,19 +15,17 @@ export function About() {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>VM</span>
-          </h1>
+          <h1 className={`${styles.heroHeadText} text-white`}> Hello and welcome, {/* I'm <span className='text-[#915EFF]'>VM</span> */} </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+            Please, take a look at my professional experience  <br className='sm:block hidden' />
+            while I'm floating here in the sky
           </p>
         </div>
       </div>
 
-      <InSpaceCanvas/>
+      {/* <InSpaceCanvas/> */}
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      {/* <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
@@ -43,7 +41,7 @@ export function About() {
             />
           </div>
         </a>
-      </div>
+      </div> */}
     </section>
   )
 }
