@@ -5,9 +5,8 @@ import { motion } from 'framer-motion';
 import { textVariant } from '../utils/motion';
 import { engineeringExperiences, experiences } from '../constants';
 import { styles } from '../styles';
+import { ExperienceCard, ShowMoreTRG } from '.';
 import "react-vertical-timeline-component/style.min.css";
-import ExperienceCard from './ExperienceCard';
-import ShowMoreTRG from './ShowMoreTRG';
 
 export function Experience() {
     const [showExtraInfo, setShowExtraInfo] = useState(false);

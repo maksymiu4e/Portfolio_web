@@ -5,7 +5,7 @@ interface IInSpace {
     isMobile: boolean;
 }
 
-export default function InSpace({isMobile}: IInSpace) {
+export function InSpace({isMobile}: IInSpace) {
     
   const computer = useGLTF("./inspace/scene.gltf");
   return (
@@ -31,3 +31,5 @@ export default function InSpace({isMobile}: IInSpace) {
       </group>
   )
 }
+
+export default InSpace;

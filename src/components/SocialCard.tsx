@@ -10,7 +10,7 @@ interface ISocialCard {
     icon: string;
 }
 
-export default function SocialCard({index, title, icon}: ISocialCard) {
+export function SocialCard({index, title, icon}: ISocialCard) {
   return (
     <Tilt className='xs:w-[250px] w-full'>
     <motion.div
@@ -39,3 +39,5 @@ export default function SocialCard({index, title, icon}: ISocialCard) {
   </Tilt>
   )
 }
+
+export default SocialCard;

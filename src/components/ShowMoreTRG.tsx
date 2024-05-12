@@ -6,7 +6,7 @@ interface IButton {
     text?: string;
 }
 
-export default function ShowMoreTRG({onClick, text}: IButton) {
+export function ShowMoreTRG({onClick, text}: IButton) {
   return (
     <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about' onClick={onClick}>
@@ -28,3 +28,5 @@ export default function ShowMoreTRG({onClick, text}: IButton) {
     </div>
   )
 }
+
+export default ShowMoreTRG;

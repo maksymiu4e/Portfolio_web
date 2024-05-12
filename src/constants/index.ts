@@ -25,7 +25,7 @@
   threejs,
 } from "../assets"; */
 
-import { miratech, shopify, starbucks, tesla } from "../assets";
+import { backend, creator, css, docker, figma, git, html, javascript, miratech, mobile, mongodb, nodejs, reactjs, redux, shopify, starbucks, tailwind, tesla, threejs, typescript, web } from "../assets";
 
 interface NavLink {
   id: string;
@@ -46,8 +46,37 @@ export const navLinks: NavLink[] = [
     title: "Contact",
   },
 ];
-/* 
-const technologies = [
+
+export interface IServices {
+  title: string;
+  icon: string;
+}
+
+export const services: IServices[] = [
+  {
+    title: "Web Developer",
+    icon: web,
+  },
+  {
+    title: "React Native Developer",
+    icon: mobile,
+  },
+  {
+    title: "Backend Developer",
+    icon: backend,
+  },
+  {
+    title: "Content Creator",
+    icon: creator,
+  },
+];
+
+export interface ITechnologies {
+  name: string;
+  icon: string;
+}
+
+export const technologies: ITechnologies[] = [
   {
     name: "HTML 5",
     icon: html,
@@ -101,7 +130,117 @@ const technologies = [
     icon: docker,
   },
 ];
-*/
+
+export const backtechnologies: ITechnologies[] = [
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+];
+
+export const dbtechnologies: ITechnologies[] = [
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+];
+
+export const gittechnologies: ITechnologies[] = [
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+];
+
+export const fronttechnologies: ITechnologies[] = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+];
+
+export const metodologictechnologies: ITechnologies[] = [
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+];
+
+export const othertechnologies: ITechnologies[] = [
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+];
+
 
 export interface Experience {
    title: string,

@@ -7,7 +7,7 @@ interface ExperienceCard {
     experience: Experience;
 }
 
-export default function ExperienceCard({experience}: ExperienceCard) {
+export function ExperienceCard({experience}: ExperienceCard) {
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -50,3 +50,5 @@ export default function ExperienceCard({experience}: ExperienceCard) {
     </VerticalTimelineElement>
   )
 }
+
+export default ExperienceCard;

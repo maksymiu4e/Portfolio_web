@@ -4,7 +4,7 @@ import { OrbitControls, Preload } from "@react-three/drei";
 import InSpace from "./InSpace";
 
 
-export default function InSpaceCanvas() {
+export function InSpaceCanvas() {
     const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -50,3 +50,5 @@ export default function InSpaceCanvas() {
     </Canvas>
   )
 }
+
+export default InSpaceCanvas;
