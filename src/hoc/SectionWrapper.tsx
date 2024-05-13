@@ -3,10 +3,10 @@ import { styles } from "../styles";
 import { staggerContainer } from "../utils/motion";
 import { motion } from 'framer-motion';
 
-type SectionWrapperProps = {
+/* type SectionWrapperProps = {
   Component: JSX.Element; // Type for the wrapped component
   idName: string; // Type for the ID name
-};
+}; */
 
 const SectionWrapper = (Component: JSX.Element, idName: string) => {
   return (

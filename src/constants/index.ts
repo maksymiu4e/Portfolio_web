@@ -72,7 +72,7 @@ export const services: IServices[] = [
   {
     title: "Download CV",
     icon: creator,
-    url: 'https://google.com'
+    url: 'https://cvmaksymiuk.s3.eu-central-1.amazonaws.com/CV_Maksymiuk%20.pdf?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEA0aDGV1LWNlbnRyYWwtMSJIMEYCIQCPovPGzdYd7iKePuyhCl09WomchJ48aDPjd2y8msdt6wIhAN3W2ghLuhWixj53HPTuTs3nXjsRr6ivFO5sWdx3AouDKuQCCHYQABoMNjg1MjUzNzgzMTA5IgxaQq54rrrD29FMENcqwQJ%2Ftsmp%2FlnsZEHDIdp9K1iJJA9Pqv30yrKhkc5sohgUHXvWmFswwQoQQVhWsde7SUrRcj2KxlsS0X%2BSpvzk2%2B%2By8S14er7AEQzbZzy2pOrJ5X9apx%2FQ8BgTnX9vHMJD7E0W4kc5PItsE4%2F3k1LzZTfjj1PAkC5TWcjOTnSfpiES64PAoNZA7dkr256nzbiyeEwPmQXpeX9Q7JGyLD6qg5X1Rp%2FBA1MFWOr62CxYa4L%2BcNBSJK4x3CB7tPcK2Sxxg8qskn2zlPNJcaMD1fedES%2FVJiOMsqK1sqWhrAXvUjr1%2F8%2B4fWWlItSJkabrOkxctqvrBzjk7QhgVckunbSKEHDedh%2FyTjHTjrj34EriqeTpvRt3DKbfVtQOmksILEzK6Y%2Fe1CnXr3FKHsSf%2FzgsqSUdFVXayqKoLBIdgllH2917akww3JSIsgY6sgJh0ANuQzH2vk8vq8nm5xnVGwsvJefVkzFZB5iF2hrhkF1RonbRjz8%2BPcK2OSKBev1wROs96ome51e2otAhk81BHoEZnBdJxOw5V5JXiojfTDfgd6GMfsWXSFBsTWUDemkTEmghYl%2BafnXmB4uPFgftIZJYLdUF1kzf4ADrCi4mPt1ixgatYm%2FM9UH86tuKpKYVhwdjY1%2FOAC%2B5Bla%2Ffb%2FCrnPpYICB9U3OE7Ag218RfPwQdXwK3F3KxS5F7xcIEpPrKYumF%2FiRgc4QesAe7Z%2FP4A9K9SA%2BOTfVc2FEX2%2FeSksHV1nULnbDdhcBl6x8nyNBj4pSoTGa1y6p47ZXAKeZebtx8s9%2BeFDtzqEeZ5Z6SOtI1ubpvUi6YxMZu200lFY2Ik5mChw3jaTJNv0DOdazSOE%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240513T124448Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAZ7DCO5ZCW3YWAYUD%2F20240513%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Signature=d5526a2623d06eea54d0e5b645688af6abb182e5345f4accb7049c09c3cd592d'
   },
 ];
 

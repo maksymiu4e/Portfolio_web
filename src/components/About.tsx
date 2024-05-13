@@ -1,7 +1,5 @@
 import React from 'react'
 import { styles } from "../styles";
-import { motion } from 'framer-motion';
-import { InSpaceCanvas } from '.';
 
 export function About() {
   return (

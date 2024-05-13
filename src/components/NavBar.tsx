@@ -5,7 +5,7 @@ import { styles } from "../styles"; // Assume this is a styles object
 import { navLinks } from "../constants"; // Assume this is an array of NavLink objects
 import { logo, menu, close } from "../assets"; // Assume these are image paths or objects
 
-type NavbarProps = {}; // Add props if needed
+//type NavbarProps = {}; // Add props if needed
 
 export function NavBar() {
   const [active, setActive] = useState<string>("");
@@ -99,6 +99,6 @@ export function NavBar() {
       </div>
     </nav>
   );
-};
+}
 
 export default NavBar;

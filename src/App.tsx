@@ -1,8 +1,7 @@
 //import { useState } from 'react'
 import { BrowserRouter } from 'react-router-dom'
 import Experience from './components/Experience'
-import { NavBar, StarsCanvas, About, InSpaceCanvas, Contacts } from './components'
-import Tech from './components/Tech'
+import { NavBar, StarsCanvas, About, InSpaceCanvas } from './components'
 import Footer from './components/Footer'
 
 function App() {

@@ -1,12 +1,10 @@
-import React, { Fragment, Suspense } from "react";
+import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import { Html, OrbitControls, Preload} from "@react-three/drei";
+import { OrbitControls, Preload} from "@react-three/drei";
 import { Ball } from "../..";
-import { dbtechnologies, technologies } from "../../../constants";
-import BoxWithImages from "./Box";
 
 interface IBallCanvas {
-    icon?: string;
+    icon: string;
 }
 
 export function BallCanvas({icon}: IBallCanvas) {
