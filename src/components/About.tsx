@@ -17,6 +17,7 @@ export function About() {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}> Hello and welcome, {/* I'm <span className='text-[#915EFF]'>VM</span> */} </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+            Here is something that you probably want to know about me before scrolling down
             Please, take a look at my professional experience  <br className='sm:block hidden' />
             while I'm floating here in the sky
           </p>

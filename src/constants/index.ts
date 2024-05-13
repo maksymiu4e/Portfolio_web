@@ -50,24 +50,29 @@ export const navLinks: NavLink[] = [
 export interface IServices {
   title: string;
   icon: string;
+  url: string;
 }
 
 export const services: IServices[] = [
   {
-    title: "Web Developer",
+    title: "View git",
     icon: web,
+    url: 'https://github.com'
   },
   {
-    title: "React Native Developer",
+    title: "View LinkedIn",
     icon: mobile,
+    url: 'https://linkedin.com'
   },
   {
-    title: "Backend Developer",
+    title: "Telegram bot",
     icon: backend,
+    url: 'https://telegram.com'
   },
   {
-    title: "Content Creator",
+    title: "Download CV",
     icon: creator,
+    url: 'https://google.com'
   },
 ];
 
@@ -187,60 +192,6 @@ export const gittechnologies: ITechnologies[] = [
     icon: figma,
   },
 ];
-
-export const fronttechnologies: ITechnologies[] = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-];
-
-export const metodologictechnologies: ITechnologies[] = [
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-];
-
-export const othertechnologies: ITechnologies[] = [
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-];
-
 
 export interface Experience {
    title: string,

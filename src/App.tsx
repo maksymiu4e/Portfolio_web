@@ -18,10 +18,9 @@ function App() {
             <InSpaceCanvas/>
           </div>
           {Experience}
-          <h1>some text</h1>
-          <div className='relative z-0'>
-            <Footer/>
-          </div>
+{/*           <div className='relative z-0'> */}
+            {Footer}
+         {/*  </div> */}
         </div>
     </BrowserRouter>
   )

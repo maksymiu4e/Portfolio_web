@@ -8,22 +8,24 @@ interface ISocialCard {
     index: number;
     title: string;
     icon: string;
+    url: string;
 }
 
-export function SocialCard({index, title, icon}: ISocialCard) {
+export function SocialCard({index, title, icon, url}: ISocialCard) {
   return (
-    <Tilt className='xs:w-[250px] w-full'>
+    <Tilt className='xs:w-[150px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
     >
-      <div
+      <a href={url}
         /* options={{
           max: 45,
           scale: 1,
           speed: 450,
-        }} */
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        }} 
+        #0b071e*/
+        className='bg-bglike rounded-[20px] py-5 px-12 min-h-[150px] flex justify-evenly items-center flex-col'
       >
         <img
           src={icon}
@@ -34,7 +36,7 @@ export function SocialCard({index, title, icon}: ISocialCard) {
         <h3 className='text-white text-[20px] font-bold text-center'>
           {title}
         </h3>
-      </div>
+      </a>
     </motion.div>
   </Tilt>
   )
