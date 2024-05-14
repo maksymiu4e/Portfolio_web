@@ -13,7 +13,7 @@ export function Footer() {
             variants={slideIn("left", "tween", 0.2, 1)}
             className='flex-[0.5] rounded-2xl'
         >
-            {Contacts}
+            <Contacts/>
         </motion.div>
         <motion.div
             variants={slideIn("right", "tween", 0.2, 1)}
@@ -26,4 +26,5 @@ export function Footer() {
   )
 }
 
+//export default Footer;
 export default SectionWrapper(<Footer/>, 'contact')

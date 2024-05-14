@@ -1,6 +1,6 @@
 import React from "react";
 import { styles } from "../styles";
-import SectionWrapper from '../hoc/SectionWrapper';
+//import SectionWrapper from '../hoc/SectionWrapper';
 import { SocialCard } from ".";
 import { services } from "../constants";
 
@@ -23,5 +23,5 @@ export function Contacts() {
   )
 }
 
-export default SectionWrapper(<Contacts/>, "about");
-//export default Contacts;
+//export default SectionWrapper(<Contacts/>, "about");
+export default Contacts;
