@@ -1,31 +1,11 @@
-/* import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-} from "../assets"; */
-
-import { backend, creator, css, docker, figma, git, html, javascript, miratech, mobile, mongodb, nodejs, reactjs, redux, shopify, starbucks, tailwind, tesla, threejs, typescript, web } from "../assets";
+import {
+  creator, css, git, html,
+  miratech, reactjs,
+  typescript, SoftServe,
+  BIIR, Konotop, csharp, dotNet,
+  efcore, linq, mssql, mysql,
+  postgre, postman, asp, github, linkedin, telegram
+} from "../assets";
 
 interface NavLink {
   id: string;
@@ -56,17 +36,17 @@ export interface IServices {
 export const services: IServices[] = [
   {
     title: "View git",
-    icon: web,
+    icon: github,
     url: 'https://github.com'
   },
   {
     title: "View LinkedIn",
-    icon: mobile,
+    icon: linkedin,
     url: 'https://linkedin.com'
   },
   {
     title: "Telegram bot",
-    icon: backend,
+    icon: telegram,
     url: 'https://telegram.com'
   },
   {
@@ -81,7 +61,69 @@ export interface ITechnologies {
   icon: string;
 }
 
-export const technologies: ITechnologies[] = [
+export const backtechnologies: ITechnologies[] = [
+  {
+    name: "C#",
+    icon: csharp,
+  },
+  {
+    name: ".NET",
+    icon: dotNet,
+  },
+  {
+    name: "Entity Framework",
+    icon: efcore,
+  },
+  {
+    name: "LINQ",
+    icon: linq,
+  },
+  {
+    name: "ASP .NET",
+    icon: asp,
+  },
+  /* {
+    name: "docker",
+    icon: docker,
+  }, */
+];
+
+export const dbtechnologies: ITechnologies[] = [
+  {
+    name: "MS SQL",
+    icon: mssql,
+  },
+  {
+    name: "My SQL",
+    icon: mysql,
+  },
+  {
+    name: "Postgre SQL",
+    icon: postgre,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "Postman",
+    icon: postman,
+  }
+  /* {
+    name: "figma",
+    icon: figma,
+  } */
+];
+
+export const gittechnologies: ITechnologies[] = [
+  {
+    name: "React",
+    icon: reactjs,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -89,108 +131,7 @@ export const technologies: ITechnologies[] = [
   {
     name: "CSS 3",
     icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-];
-
-export const backtechnologies: ITechnologies[] = [
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-];
-
-export const dbtechnologies: ITechnologies[] = [
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-];
-
-export const gittechnologies: ITechnologies[] = [
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  }
 ];
 
 export interface Experience {
@@ -231,8 +172,9 @@ export const experiences: Experience[] = [
   {
     title: ".NET Intern",
     company_name: "SoftServe IT Academy",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: SoftServe,
+    iconBg: "#fff",
+    //iconBg: "#383E56",
     date: "Aug 2021 - Dec 2021",
     points: [
       "Design and develop new features on back-end side",
@@ -247,8 +189,9 @@ export const engineeringExperiences: Experience[] = [
   {
     title: "Mechanical design engineer",
     company_name: "LLC BIIR Ukraine (Vestas Denmark)",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: BIIR,
+    iconBg: "#fff",
+    //iconBg: "#383E56",
     date: "Oct 2015 - Jan 2021",
     points: [
       "Develop product design using 3D CAD tools",
@@ -260,32 +203,14 @@ export const engineeringExperiences: Experience[] = [
   {
     title: "Mechanical design engineer",
     company_name: "Konotop valve plant",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    icon: Konotop,
+    //iconBg: "#E6DEDD",
+    iconBg: "#fff",
+    date: "Aug 2014 - Nov 2015",
     points: [
       "Create product design using 3D CAD tools",
       "Investigate and resolve problems",
       "Provide technical assistance",
     ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
 ];
-
-/*
-
-
-
-export { services, technologies, experiences, testimonials, projects }; */
