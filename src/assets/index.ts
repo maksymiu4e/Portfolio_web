@@ -1,10 +1,10 @@
 import logo from "./logo.svg";
-import creator from "./creator.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import linkedin from "./linkedin.png";
 import telegram from "./telegram.png";
+import download from "./download.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -31,7 +31,6 @@ import Konotop from "./company/Konotop.png";
 
 export {
   logo,
-  creator,
   github,
   menu,
   close,
@@ -57,5 +56,6 @@ export {
   postman,
   asp,
   linkedin,
-  telegram
+  telegram,
+  download
 };

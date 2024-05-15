@@ -1,8 +1,9 @@
 //import { useState } from 'react'
 import { BrowserRouter } from 'react-router-dom'
 import Experience from './components/Experience'
-import { NavBar, StarsCanvas, About, InSpaceCanvas } from './components'
 import Footer from './components/Footer'
+import About from './components/About'
+import { NavBar, StarsCanvas, InSpaceCanvas } from './components'
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -12,7 +13,7 @@ function App() {
       <NavBar />
         <div className='relative z-0 bg-primary'>
           <StarsCanvas />
-          <About />
+          {About}
           <div className='w-full h-auto fixed inset-0 z-[-1]'>
             <InSpaceCanvas/>
           </div>
