@@ -1,5 +1,6 @@
 import React from 'react'
 import { styles } from "../styles";
+import SectionWrapper from '../hoc/SectionWrapper';
 
 export function About() {
   return (
@@ -45,4 +46,5 @@ export function About() {
   )
 }
 
-export default About;
+//export default About;
+export default SectionWrapper(<About/>, 'about')

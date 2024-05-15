@@ -13,7 +13,7 @@ export function Ball({imgUrl}: IBall) {
       <ambientLight intensity={0.25} />
       <directionalLight position={[0, 0, 0.05]} />
       <mesh castShadow receiveShadow scale={2.75}>
-        <icosahedronGeometry args={[1, 4]} />
+        <icosahedronGeometry args={[1, 2]} />
         <meshStandardMaterial
           color='#fff8eb'
           polygonOffset
