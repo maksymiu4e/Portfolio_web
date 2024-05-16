@@ -9,8 +9,8 @@ export function Contacts() {
     <div className="flex flex-col items-center">
       <div className="flex flex-col items-center">
 
-        <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Introduction</p>
       </div>
 
 

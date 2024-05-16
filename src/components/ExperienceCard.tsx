@@ -35,13 +35,29 @@ export function ExperienceCard({experience}: ExperienceCard) {
         >
           {experience.company_name}
         </p>
+        {experience.tech_stack &&
+          <p
+          className='text-secondary text-[16px] font-semibold'
+          style={{ margin: 0 }}
+        >
+          <b className='text-text3rd'>Tech. stack:</b> {experience.tech_stack}
+          </p>
+        }
+        {experience.prj_dsc &&
+          <p
+          className='text-secondary text-[16px] font-semibold'
+          style={{ margin: 0 }}
+        >
+          <b className='text-text3rd'>Project description:</b> {experience.prj_dsc}
+          </p>
+        }
       </div>
 
       <ul className='mt-5 list-disc ml-5 space-y-2'>
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className='text-white-100 text-[14px] pl-1 tracking-wider'
+            className='text-text3rd text-[14px] pl-1 tracking-wider'
           >
             {point}
           </li>

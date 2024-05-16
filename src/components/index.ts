@@ -7,3 +7,4 @@ export * from './About';
 export * from './ShowMoreTRG';
 export * from './SocialCard';
 export * from './Contacts';
+export * from './CanvasLoader';
