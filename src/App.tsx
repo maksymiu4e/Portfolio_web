@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <NavBar />
       <div className='relative z-0 bg-primary'>
-        {/* <StarsCanvas /> */}
+        <StarsCanvas />
         {About}
         <div className='w-full h-auto fixed inset-0 z-[-1]'>
           {/* <InSpaceCanvas /> */}
