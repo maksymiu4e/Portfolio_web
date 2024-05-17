@@ -4,7 +4,7 @@ import {
   typescript, SoftServe,
   BIIR, Konotop, csharp, dotNet,
   efcore, linq, mssql, mysql,
-  postgre, postman, asp, github, linkedin, telegram, download
+  postgre, postman, asp, github, linkedin, telegram, download, figma
 } from "../assets";
 
 interface NavLink {
@@ -132,6 +132,73 @@ export const fronttechnologies: ITechnologies[] = [
     name: "CSS 3",
     icon: css,
   }
+];
+
+export const alltechnologies: ITechnologies[] = [
+  {
+    name: "C#",
+    icon: csharp,
+  },
+  {
+    name: ".NET",
+    icon: dotNet,
+  },
+  {
+    name: "Entity Framework",
+    icon: efcore,
+  },
+  {
+    name: "LINQ",
+    icon: linq,
+  },
+  {
+    name: "ASP .NET",
+    icon: asp,
+  },
+  {
+    name: "MS SQL",
+    icon: mssql,
+  },
+  {
+    name: "My SQL",
+    icon: mysql,
+  },
+  {
+    name: "Postgre SQL",
+    icon: postgre,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "Postman",
+    icon: postman,
+  },
+  {
+    name: "React",
+    icon: reactjs,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  /* {
+    name: "docker",
+    icon: docker,
+  }, */
 ];
 
 export interface Experience {
