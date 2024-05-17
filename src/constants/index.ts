@@ -4,7 +4,7 @@ import {
   typescript, SoftServe,
   BIIR, Konotop, csharp, dotNet,
   efcore, linq, mssql, mysql,
-  postgre, postman, asp, github, linkedin, telegram, download, figma
+  postgre, postman, asp, github, linkedin, telegram, download
 } from "../assets";
 
 interface NavLink {
@@ -60,79 +60,6 @@ export interface ITechnologies {
   name: string;
   icon: string;
 }
-
-export const backtechnologies: ITechnologies[] = [
-  {
-    name: "C#",
-    icon: csharp,
-  },
-  {
-    name: ".NET",
-    icon: dotNet,
-  },
-  {
-    name: "Entity Framework",
-    icon: efcore,
-  },
-  {
-    name: "LINQ",
-    icon: linq,
-  },
-  {
-    name: "ASP .NET",
-    icon: asp,
-  },
-  /* {
-    name: "docker",
-    icon: docker,
-  }, */
-];
-
-export const dbtechnologies: ITechnologies[] = [
-  {
-    name: "MS SQL",
-    icon: mssql,
-  },
-  {
-    name: "My SQL",
-    icon: mysql,
-  },
-  {
-    name: "Postgre SQL",
-    icon: postgre,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "Postman",
-    icon: postman,
-  }
-  /* {
-    name: "figma",
-    icon: figma,
-  } */
-];
-
-export const fronttechnologies: ITechnologies[] = [
-  {
-    name: "React",
-    icon: reactjs,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  }
-];
 
 export const alltechnologies: ITechnologies[] = [
   {
@@ -191,10 +118,10 @@ export const alltechnologies: ITechnologies[] = [
     name: "CSS 3",
     icon: css,
   },
-  {
+/*   {
     name: "figma",
     icon: figma,
-  },
+  }, */
   /* {
     name: "docker",
     icon: docker,
@@ -216,6 +143,8 @@ export const experiences: Experience[] = [
   {
     title: "Junior .NET developer",
     company_name: "Miratech",
+    tech_stack: "C#/.NET 6, Entity Framework Core, MS SQL Server, Bitbucket, Scrum",
+    prj_dsc: "Desktop client to Web transition (workforce management system).",
     icon: miratech,
     iconBg: "#fff",
     date: "Sep 2023 - till now",
@@ -230,7 +159,7 @@ export const experiences: Experience[] = [
     title: "Trainee – Junior .NET/React developer",
     company_name: "Miratech",
     tech_stack: "C#/.NET 6, Entity Framework Core, MS SQL Server, React, Redux, Bitbucket, Scrum",
-    prj_dsc: "HORECA industry related startup",
+    prj_dsc: "HORECA industry related startup. Service that allows workspace booking.",
     icon: miratech,
     iconBg: "#fff",
     date: "Dec 2021 - Sep 2023",
