@@ -21,7 +21,7 @@ export function Experience() {
       </motion.div>
 
       <div className='mt-12 flex flex-col items-center'>
-        <VerticalTimeline>
+        <VerticalTimeline lineColor='#535C91'>
           {experiences.map((experience, index) => (
             <ExperienceCard
               key={`experience-${index}`}
@@ -31,11 +31,11 @@ export function Experience() {
         {showExtraInfo && (
           <>
             {engineeringExperiences.map((experience, index) => (
-            <ExperienceCard
+              <ExperienceCard
               key={`experience-${index}`}
               experience={experience}
-            />
-          ))}
+              />
+              ))}
           </>
         )}
 
@@ -47,5 +47,4 @@ export function Experience() {
     </>
   )
 }
-
 export default SectionWrapper(<Experience/>, "work");
