@@ -32,7 +32,7 @@ export function InSpaceCanvas() {
   return (
     <Canvas
       frameloop='demand'
-      shadows
+      //shadows
       dpr={[1, 2]}
       camera={{ position: [18, 3, 5], fov: 40, near: 0.1, far: 100 }}
       gl={{ preserveDrawingBuffer: true }}
@@ -48,7 +48,7 @@ export function InSpaceCanvas() {
         <InSpace isMobile={isMobile} />
       </Suspense>
 
-      <Preload all />
+      <Preload all={false} />
     </Canvas>
   )
 }
