@@ -13,7 +13,7 @@ function App() {
         {/* <StarsCanvas /> */}
         {About}
         <div className='w-full h-auto fixed inset-0 z-[-1]'>
-          <InSpaceCanvas />
+          {/* <InSpaceCanvas /> */}
         </div>
         {Experience}
         {Footer}
