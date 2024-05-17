@@ -7,10 +7,10 @@ export function Tech() {
     return (
         <div className="flex flex-col items-center">
             <div className="flex flex-col items-center">
-                <h2 className={styles.sectionHeadText}>Overview.</h2>
-                <p className={styles.sectionSubText}>Introduction</p>
+                <h2 className={styles.sectionHeadText}>Tech stack</h2>
+                {/* <p className={styles.sectionSubText}>Introduction</p> */}
             </div>
-            <div className='mt-20 flex flex-wrap gap-10'>
+            <div className='mt-16 flex flex-wrap gap-10'>
                 <div className='flex flex-col flex-wrap justify-center items-end gap-10'>
                     <div className='flex flex-row flex-wrap justify-center gap-10'>
                         {backtechnologies.map((technology) => (

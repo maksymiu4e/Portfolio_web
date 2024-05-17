@@ -1,6 +1,5 @@
 import React from "react";
 import { styles } from "../styles";
-//import SectionWrapper from '../hoc/SectionWrapper';
 import { SocialCard } from ".";
 import { services } from "../constants";
 
@@ -8,13 +7,10 @@ export function Contacts() {
   return (
     <div className="flex flex-col items-center">
       <div className="flex flex-col items-center">
-
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
-        <p className={styles.sectionSubText}>Introduction</p>
+        <h2 className={styles.sectionHeadText}>Contact me</h2>
+        {/* <p className={styles.sectionSubText}>Introduction</p> */}
       </div>
-
-
-      <div className='mt-20 flex flex-wrap justify-center gap-10'>
+      <div className='mt-16 flex flex-wrap justify-center gap-10'>
         {services.map((service, index) => (
           <SocialCard key={service.title} index={index} {...service} />
         ))}
@@ -23,5 +19,4 @@ export function Contacts() {
   )
 }
 
-//export default SectionWrapper(<Contacts/>, "about");
 export default Contacts;
