@@ -10,7 +10,7 @@ export function StarsCanvas() {
       <Suspense fallback={null}>
         <Stars />
       </Suspense>
-      <Preload all />
+      <Preload all={false} />
     </Canvas>
   </div>
   )

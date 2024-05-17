@@ -19,7 +19,7 @@ export function BallCanvas({icon}: IBallCanvas) {
         <Ball imgUrl={icon} />
       </Suspense>
 
-      <Preload all />
+      <Preload all={false} />
     </Canvas>
   )
 }
