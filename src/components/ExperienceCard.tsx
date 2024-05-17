@@ -22,6 +22,7 @@ export function ExperienceCard({experience}: ExperienceCard) {
           <img
             src={experience.icon}
             alt={experience.company_name}
+            loading='lazy'
             className='w-[100%] h-[60%] object-contain'
           />
         </div>
