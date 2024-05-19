@@ -52,7 +52,7 @@ export const services: IServices[] = [
   {
     title: "CV",
     icon: download,
-    url: 'https://cvm'
+    url: 'https://drive.google.com/file/d/1UZ0cZ2C6uj4pe9WvXLg4p6HRk2STwunT/view?usp=drive_link'
   },
 ];
 
@@ -165,7 +165,6 @@ export const experiences: Experience[] = [
     date: "Dec 2021 - Sep 2023",
     points: [
       "Implement new features according to business requirements (backend, front-end)",
-      "Interact with DB using Entity Framework",
       "Implementing responsive interface, landing pages according to Figma design and client requirements ",
     ],
   },
