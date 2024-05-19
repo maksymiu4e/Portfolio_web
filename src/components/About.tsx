@@ -4,7 +4,7 @@ import SectionWrapper from '../hoc/SectionWrapper';
 
 export function About() {
   return (
-    <section className={`relative w-full mx-auto h-[60vh] xl:h-[60vh] sm:h-[100vh] xs:h-[80vh] xxs:h-[120vh] `} // xl:h-[60vh] sm:h-[100vh] xs:h-[80vh] xxs:h-[120vh]
+    <section className={`relative w-full mx-auto h-[60vh] xl:h-[60vh] sm:h-[100vh] xs:h-[75vh] xxs:h-[100vh] `}
     >
       <div
         className={`absolute inset-0 top-[60px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}

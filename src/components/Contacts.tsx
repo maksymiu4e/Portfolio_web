@@ -10,7 +10,7 @@ export function Contacts() {
         <h2 className={styles.sectionHeadText}>Contact me</h2>
         {/* <p className={styles.sectionSubText}>Introduction</p> */}
       </div>
-      <div className='mt-16 flex flex-wrap justify-center gap-10'>
+      <div className='mt-16 flex flex-wrap justify-center gap-14'>
         {services.map((service, index) => (
           <SocialCard key={service.title} index={index} {...service} />
         ))}

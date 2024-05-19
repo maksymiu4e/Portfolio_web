@@ -1,16 +1,19 @@
-import React, { Suspense, useEffect, useState } from "react";
+import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload } from "@react-three/drei";
 import InSpace from "./InSpace";
 import { CanvasLoader } from "../..";
 
+interface IInSpaceCanvas {
+  isMobile: boolean;
+}
 
-export function InSpaceCanvas() {
-  const [isMobile, setIsMobile] = useState(false);
+export function InSpaceCanvas({isMobile}: IInSpaceCanvas) {
+  /* const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    const mediaQuery = window.matchMedia("(max-width: 768px)");
 
     // Set the initial value of the `isMobile` state variable
     setIsMobile(mediaQuery.matches);
@@ -28,8 +31,10 @@ export function InSpaceCanvas() {
     return () => {
       mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
-  }, []);
+  }, []); */
+
   return (
+     !isMobile ? 
     <Canvas
       frameloop='demand'
       //shadows
@@ -49,7 +54,9 @@ export function InSpaceCanvas() {
       </Suspense>
 
       <Preload all={false} />
-    </Canvas>
+    </Canvas >
+      :
+      null
   )
 }
 
